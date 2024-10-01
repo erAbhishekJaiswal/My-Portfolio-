@@ -483,7 +483,19 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-name: skillanim;
+    animation-duration: 2s;
 }
+@keyframes skillanim {
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}    
 .skills{
     margin: 10px;
     display: flex;
