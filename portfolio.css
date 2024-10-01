@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
     display: grid;
     place-items: center;
     background-color: rgb(41, 41, 41);
@@ -23,7 +26,7 @@ nav{
     width: 30%;
     padding: 20px;
     color: white;
-    font-family:math;
+/*     font-family:math; */
     background-color: rgb(41, 41, 41);
 }
 .nablist{
@@ -31,7 +34,7 @@ nav{
     display: flex;
     list-style: none;
     gap: 50px;
-    font-family: math;
+/*     font-family: math; */
     justify-content: end;
     color: white;
     background-color: rgb(60 60 60);
@@ -70,7 +73,7 @@ section{
     display: flex;
     list-style: none;
     gap: 50px;
-    font-family: math;
+/*     font-family: math; */
     justify-content: end;
     color: white;
     background-color: rgb(60 60 60);
@@ -80,7 +83,7 @@ section{
         width: 100%;
         padding: 20px;
         color: white;
-        font-family:math;
+/*         font-family:math; */
         background-color: rgb(41, 41, 41);
     }
     .navbtn{
@@ -139,7 +142,7 @@ section{
         width: 100%;
         padding: 20px;
         color: white;
-        font-family: math;
+/*         font-family: math; */
     }
     .molist{
     width: 100%;
@@ -148,7 +151,7 @@ section{
     flex-direction: column;
     list-style: none;
     /* gap: 50px; */
-    font-family: math;
+/*     font-family: math; */
     /* justify-content: end; */
     color: white;
     background-color: rgb(60 60 60);
@@ -252,7 +255,7 @@ section{
     width: 100%;
     height: 100%;
     font-size: 20px;
-    font-family: math;
+/*     font-family: math; */
     display: grid;
     place-items: center;
 }
@@ -289,7 +292,7 @@ section{
 .pname{
     text-align: center;
     font-size: 30px;
-    font-family: math;
+/*     font-family: math; */
     /* border: 2px solid black; */
 }
 /* .prodetails{
@@ -306,7 +309,7 @@ section{
     text-align: center;
     font-size: 20px;
     color: white;
-    font-family: math;
+/*     font-family: math; */
     border: 2px solid blue;
     background-color: rgb(41, 41, 41);
     display: flex;
@@ -453,7 +456,7 @@ a{
     width: 100%;
     height: 100%;
     font-size: 20px;
-    font-family: math;
+/*     font-family: math; */
     display: grid;
     place-items: center;
 }
@@ -487,12 +490,12 @@ a{
 .pname{
     text-align: center;
     font-size: 30px;
-    font-family: math;
+/*     font-family: math; */
 }
 .pn{
     text-align: center;
     font-size: 55px;
-    font-family: math;
+/*     font-family: math; */
 }
 .prodetails{
     border: 2px solid black;
@@ -507,7 +510,7 @@ a{
 .probtn{
     text-align: center;
     font-size: 20px;
-    font-family: math;
+/*     font-family: math; */
     color: white;
     padding: 5px;
     border: 2px solid blue;
