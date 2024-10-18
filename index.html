@@ -22,22 +22,24 @@
                 </div>
             </div>
             <ul class="molist">
-                    <li class="mlist"><a href="section1">Home</a></li>
-                    <li class="mlist"><a href="section2">About</a></li>
-                    <li class="mlist"><a href="section3">Projects</a></li>
-                    <li class="mlist"><a href="section4">Contact Us</a></li>
+                    <li class="mlist"><a href="#home">Home</a></li>
+                    <li class="mlist"><a href="#home">About</a></li>
+                    <li class="mlist"><a href="#skill">Skills</a></li>
+                    <li class="mlist"><a href="#projects">Projects</a></li>
+                    <li class="mlist"><a href="#contact">Contact Us</a></li>
             </ul>
         </div>
 
             <ul class="nablist">
-                <li><a href="section1">Home</a></li>
-                <li><a href="section2">About</a></li>
-                <li><a href="section3">Projects</a></li>
-                <li><a href="section4">Contact Us</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#home">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </div>
     </nav>
-    <section class="section1">
+    <section id="home" class="section1">
         <div class="hmain">
             <div class="heading">I'm Abhishek Jaiswal. A Web Developer in the MERN stack</div>
             <div class="img">
@@ -45,7 +47,7 @@
             </div>
         </div>
     </section>
-    <section class="section2">
+    <section id="skill" class="section2">
         <div class="skhead">Skills</div>
         <div class="skillbox">
             <div class="skills">
@@ -102,7 +104,7 @@
             </div>
         </div>
     </section>
-    <section class="section3">
+    <section id="projects" class="section3">
 
         <div class="projects">
             <div class="projecthead">
@@ -118,42 +120,35 @@
                     </p>
                 </div>
             </a>
-            <div class="project1">
-                <p class="pname">Project2</p>
+            <a href="https://github.com/erAbhishekJaiswal/profile-cards" class="project1">
+                <p class="pname">Profile Card</p>
                 <div class="prodetails">
-                    <p>Details
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis velit reiciendis obcaecati
-                        repudiandae eligendi unde! Vitae incidunt dolore impedit aspernatur rerum, maiores esse,
-                        numquam, ipsum obcaecati ipsam dignissimos iusto inventore?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quae.
-                        Lorem ipsum dolor sit amet.
+                    <p>
+                        A profile card project, crafted using HTML and CSS, is a visually appealing way to display personal information like a profile picture, 
+                        name, job title, and a brief bio, all neatly organized within a designated card-like container.
                     </p>
                 </div>
-            </div>
-            <div class="project1">
-                <p class="pname">Project3</p>
+            </a>
+            <a href="https://github.com/erAbhishekJaiswal/background-color-changeing-by-color-picker-from-image" class="project1">
+                <p class="pname">background changeing using color picker</p>
                 <div class="prodetails">
-                    <p>Details
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis velit reiciendis obcaecati
-                        repudiandae eligendi unde! Vitae incidunt dolore impedit aspernatur rerum, maiores esse,
-                        numquam, ipsum obcaecati ipsam dignissimos iusto inventore?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quae.
-                        Lorem ipsum dolor sit amet.
+                    <p>
+                        A "background-color-changing-bg-color-picker-from-image" project, built using HTML, CSS, and JavaScript, 
+                        allows users to visually select a color from an image by clicking on it, 
+                        then dynamically applies that color as the background of a webpage.
                     </p>
                 </div>
-            </div>
-            <div class="project1">
-                <p class="pname">Project4</p>
+            </a>
+            <a href="https://github.com/erAbhishekJaiswal/Basic-Authentication-and-Authorization-app-in-MERN" class="project1">
+                <p class="pname">Basic-Authentication app-in-MERN</p>
                 <div class="prodetails">
-                    <p>Details
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis velit reiciendis obcaecati
-                        repudiandae eligendi unde! Vitae incidunt dolore impedit aspernatur rerum, maiores esse,
-                        numquam, ipsum obcaecati ipsam dignissimos iusto inventore?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quae.
-                        Lorem ipsum dolor sit amet.
+                    <p>
+                        Handling user sign-up, sign-in, and password management using Firebase's built-in authentication services.
+                        Implementing route guards in your React application to restrict access to certain pages or components based on user authentication status.
+                        Configuring security rules for your Firestore database to control data access based on user roles or other criteria.
                     </p>
                 </div>
-            </div>
+            </a>
             <div class="project1">
                 <p class="pname">Project5</p>
                 <div class="prodetails">
@@ -183,10 +178,12 @@
             </div>
         </div>
     </section>
-    <section class="section4">
+    <section id="contact" class="section4">
         <div class="content">
             <div class="context">Let's Contact Us</div>
-            <form action="">
+                    <p>For any queries, please feel free to contact me.</p>
+                    <a href="http://aj478631@gmail.com">aj478631@gmail.com</a>
+<!--             <form action="">
                 <label for="name">Name</label>
                 <input type="text" id="name" >
                 <label for="email">Email</label>
@@ -194,7 +191,7 @@
                 <label for="message">Message</label>
                 <textarea class="text" name="message" id="message" cols="30" rows="10"></textarea>
                 <button class="btn" type="submit">Send Us</button>
-            </form>
+            </form> -->
         </div>
     </section>
     <footer>
