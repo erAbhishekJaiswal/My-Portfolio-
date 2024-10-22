@@ -20,7 +20,7 @@ nav{
     top: 0;
     left: 0;
     z-index: 10;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #454545;
 }
 .logo{
     width: 30%;
@@ -88,12 +88,16 @@ section{
     }
     .navbtn{
         display: flex;
-        padding: 10px;
+        padding: 5px;
     }
     .navinnerbtn{
         border: none;
-        background-color: rgb(60, 60, 60);
-        padding: 12px;
+        background-color: rgb(255 255 255);
+        padding: 9px;
+        color: black;
+        font-size: 1rem;
+        font-weight: 900;
+    }
     }
     /* .section1{
         margin-top: 110px;
@@ -128,7 +132,12 @@ section{
     }
     #close{
         display: none;
-        padding: 12px;
+        background-color: rgb(255 255 255);
+        padding: 9px;
+        color: black;
+        font-size: 1rem;
+        font-weight: 900;
+    }
     }
     .monav{
         width: 100%;
@@ -154,7 +163,7 @@ section{
 /*     font-family: math; */
     /* justify-content: end; */
     color: white;
-    background-color: rgb(60 60 60);
+    background-color: rgb(0 4 34);
     }
     .mlist{
         padding: 5px;
@@ -236,12 +245,13 @@ section{
 .section2{
     width: 100%;
     height: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 4, 34);
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-top: 1px solid #454545;
     /* border: 2px solid red; */
 }
 .skillbox{
@@ -261,21 +271,23 @@ section{
     align-items: center;
 }
 .skills{
-    margin: 10px;
+/*     margin: 10px; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 .skill1{
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0 226 255);
     color: white;
-    background-color: rgb(41, 41, 41);
+/*     background-color: rgb(41, 41, 41); */
     width: 100%;
     margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 5px;
+    padding: 5px;
     /* border: 2px solid rgb(255, 0, 0); */
 }
 .sk{
@@ -293,7 +305,8 @@ section{
 .section3{
     width: 100%;
     height: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 4, 34);
+    border-top: 1px solid #454545;
 }
 .projects{
     margin: 10px;
@@ -312,7 +325,9 @@ section{
 }
 .project1{
     color:white;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0 226 255);
+    border-radius: 5px;
+    padding: 5px;
     width: 85%;
     margin: 10px;
     align-items: center;
@@ -351,7 +366,10 @@ section{
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: rgb(41, 41, 41);
+    height: 100%;
+    padding: 30px;
+    background-color: rgb(0, 4, 34);
+    border-top: 1px solid #454545;
     /* border: 2px solid black; */
 }
 
@@ -468,7 +486,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid #454545;
 }
 .skillbox{
     width: 70%;
@@ -532,7 +550,7 @@ a{
 .section3{
     width: 100%;
     height: 100%;
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid #454545;
 /*     background-color: rgb(0 4 34); */
 }
 .projects{
@@ -599,7 +617,7 @@ a{
     align-items: center;
     width: 100%;
 /*     background-color: rgb(41, 41, 41); */
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid #454545;
 }
 
 .content{
@@ -696,10 +714,16 @@ footer{
     background-color: rgb(4 7 50);
     display: grid;
     place-items: center;
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid #454545;
 }
 .footer-ul{
     list-style-type: none;
     display: flex;
-    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+/*     gap: 30px; */
+}
+.footer-li{
+    cursor: pointer;
+    padding: 3px;
 }
