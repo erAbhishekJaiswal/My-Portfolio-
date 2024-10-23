@@ -13,33 +13,33 @@
     <nav>
         <div class="nabar">
             <div class="logo">Abhishek Jaiswal</div>
-            <div class="mainnav" style="width: 100%;">
+            <div class="mainnav">
             <div class="monav">
                 <div class="mlogo">Abhishek Jaiswal</div>
                 <div class="navbtn">
-                    <button id="close" style="display: none; padding: 8px; font-size: 20px;" >X</button>
+                    <button id="close">X</button>
                     <button class="navinnerbtn" id="btn">...</button>
                 </div>
             </div>
-            <ul class="molist">
-                    <li class="mlist"><a href="#home">Home</a></li>
-                    <li class="mlist"><a href="#home">About</a></li>
-                    <li class="mlist"><a href="#skill">Skills</a></li>
-                    <li class="mlist"><a href="#projects">Projects</a></li>
-                    <li class="mlist"><a href="#contact">Contact Us</a></li>
+            <ul id="mobileDIV" class="molist">
+                    <li class="mlist"><a class="mlists sactive" href="#section1">Home</a></li>
+                    <li class="mlist"><a class="mlists" href="#about">About</a></li>
+                    <li class="mlist"><a class="mlists" href="#section2">Skills</a></li>
+                    <li class="mlist"><a class="mlists" href="#section3">Projects</a></li>
+                    <li class="mlist"><a class="mlists" href="#section4">Contact Us</a></li>
             </ul>
         </div>
 
-            <ul class="nablist">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#home">About</a></li>
-                <li><a href="#skill">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+            <ul id="myDIV" class="nablist">
+                <li><a class="nlists active" href="#section1">Home</a></li>
+                <li><a class="nlists" href="#about">About</a></li>
+                <li><a class="nlists" href="#section2">Skills</a></li>
+                <li><a class="nlists" href="#section3">Projects</a></li>
+                <li><a class="nlists" href="#section4">Contact Us</a></li>
             </ul>
         </div>
     </nav>
-    <section id="home" class="section1">
+    <section id="section1" class="section1">
         <div class="hmain">
             <div class="heading">I'm Abhishek Jaiswal. A Web Developer in the MERN stack</div>
             <div class="img">
@@ -53,10 +53,10 @@
             I am a passionate web developer with expertise in building dynamic and responsive web applications using the MERN stack (MongoDB, Express.js, React.js, and Node.js).
             With a strong foundation in HTML, CSS, and JavaScript, I enjoy crafting seamless user interfaces and efficient back-end systems.
             I strive to create intuitive, high-performance applications while constantly exploring new technologies and frameworks to enhance my development skills. 
-            Whether it's building complex features or optimizing code for speed, I’m committed to delivering excellent user experiences through clean and maintainable code.
+            Whether it's building complex features or optimizing code for speed, I'm committed to delivering excellent user experiences through clean and maintainable code.
         </div>
-    </section>    
-    <section id="skill" class="section2">
+    </section>
+    <section id="section2" class="section2">
         <div class="skhead">Skills</div>
         <div class="skillbox">
             <div class="skills">
@@ -113,13 +113,14 @@
             </div>
         </div>
     </section>
-    <section id="projects" class="section3">
+    <section id="section3" class="section3">
 
         <div class="projects">
             <div class="projecthead">
                 <p class="pn">Projects</p>
             </div>
             <a href="https://github.com/erAbhishekJaiswal/photoediter" class="project1">
+                <img src="Photo_editer.jpg" width="100%" height="300px" alt="">
                 <p class="pname">Photo Editer</p>
                 <div class="prodetails">
                     <p>
@@ -130,6 +131,7 @@
                 </div>
             </a>
             <a href="https://github.com/erAbhishekJaiswal/profile-cards" class="project1">
+                <img src="user_template_project.jpg" width="100%" height="300px" alt="">
                 <p class="pname">Profile Card</p>
                 <div class="prodetails">
                     <p>
@@ -139,6 +141,7 @@
                 </div>
             </a>
             <a href="https://github.com/erAbhishekJaiswal/background-color-changeing-by-color-picker-from-image" class="project1">
+                <img src="Color-picker.jpg" width="100%" height="300px" alt="">
                 <p class="pname">background changeing using color picker</p>
                 <div class="prodetails">
                     <p>
@@ -149,6 +152,7 @@
                 </div>
             </a>
             <a href="https://github.com/erAbhishekJaiswal/Basic-Authentication-and-Authorization-app-in-MERN" class="project1">
+                <img src="authorizationapp.jpg" width="100%" height="300px" alt="">
                 <p class="pname">Basic-Authentication app-in-MERN</p>
                 <div class="prodetails">
                     <p>
@@ -158,19 +162,8 @@
                     </p>
                 </div>
             </a>
-<!--             <div class="project1">
-                <p class="pname">Project5</p>
-                <div class="prodetails">
-                    <p>Details
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis velit reiciendis obcaecati
-                        repudiandae eligendi unde! Vitae incidunt dolore impedit aspernatur rerum, maiores esse,
-                        numquam, ipsum obcaecati ipsam dignissimos iusto inventore?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quae.
-                        Lorem ipsum dolor sit amet.
-                    </p>
-                </div>
-            </div> -->
-<!--             <div class="project1">
+           
+            <!-- <div class="project1">
                 <p class="pname">Project6</p>
                 <div class="prodetails">
                     <p>Details
@@ -183,16 +176,15 @@
                 </div>
             </div> -->
             <div class="promore">
-                <button class="probtn">View All Projects</button>
-            </div> 
+                <button class="probtn"><a href="projects.html" target="_blank" >View All Projects</a></button>
+            </div>
         </div>
     </section>
-    <section id="contact" class="section4">
+    <section id="section4" class="section4">
         <div class="content">
             <div class="context">Let's Contact Us</div>
-<!--        <p>For any queries, please feel free to contact me.</p> -->
             <button class="btn"><a href="http://aj478631@gmail.com">aj478631@gmail.com</a></button>
-<!--             <form action="">
+            <!-- <form action="">
                 <label for="name">Name</label>
                 <input type="text" id="name" >
                 <label for="email">Email</label>
